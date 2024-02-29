@@ -1,1 +1,103 @@
- 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee &amp; Book Bliss</title>
+    <style>
+
+        body {
+            font-family: 'Caveat', cursive, sans-serif; 
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f5f5f5; 
+        }
+
+        header {
+            background-color: #3b2d15; 
+            color: #f5f0f0;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: #bee708; 
+            color: #0f0d0d;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        main {
+            flex: 1;
+            padding: 10px;
+            color: #ffee00;
+            background-color: #e26009;
+            text-align: center;
+        }
+
+        aside {
+            width: 200px;
+            background-color: #078651;
+            color: #fcfaf7;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #3b2d15; 
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Coffee &amp; Book Bliss with ME :></h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Brewed Reads</a></li>
+            <li><a href="#">Mocha Moments</a></li>
+            <li><a href="#">Literary Lattes</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <aside>
+            <h2>Sip &amp; Flip</h2>
+            <p>Coffee paired with must-read books. Because a good book deserves a great cup of coffee!</p>
+        </aside>
+
+        <main>
+            <h2>Brewed Reads &amp; Mocha Moments</h2>
+            <p>Welcome to the coziest corner of the internet where books and coffee come together, creating a symphony of blissful moments!</p>
+        </main>
+
+        <aside>
+            <h2>Bookish Beans</h2>
+            <p>Coffee inspired by our favorite books. Each sip is a chapter of flavor!</p>
+        </aside>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Coffee &amp; Book Bliss. Sip, read, laugh, repeat.</p>
+    </footer>
+
+</body>
+
+</html>
